@@ -1,0 +1,34 @@
+Welcome to user assisstance manual, this will be the guide to the command to assist you:
+
+1. Look Command
+
+To inspect item, simply:
+==> Look at [item_name]
+To inspect item in a container, do:
+==> Look at [item_name] in [container_name]
+To inspect yourself to check your inventory, simply:
+==> Look at me
+
+2. Move command
+
+The keyword "Move" can be use interchangably with "head", "leave", "go"
+To move to a certain location, simply:
+==> Move {path_name}
+To know the path name, simply:
+==> Look at location
+This command will let you inspect the current location, the items in it and exit PATH
+
+3. Take Command
+
+The keyword "take" could use interchangably with "obtain", "get", "pick_up"
+To take an item, do:
+==> take {item_id} , do note that you should take the Item's ID not Name
+
+4. Use command
+to use an item, do:
+==> use {item_id} {direction}
+example: use {force_multiplier} {upstair}
+
+5. Put Command
+to put an item into a container (i.e bag), do:
+==>put {item_id} in {bag}
